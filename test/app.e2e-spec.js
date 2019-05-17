@@ -1,7 +1,7 @@
 import request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { AppController } from '../src/app.controller';
-import { AppService } from '../src/app.service';
+import { AppController } from '../src/app/app.controller';
+import { AppService } from '../src/app/app.service';
 
 describe('AppController (e2e)', () => {
   let app;

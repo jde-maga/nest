@@ -1,8 +1,7 @@
 {
-  "name": "nest-babel-starter",
-  "version": "1.0.0",
-  "description": "Nest Babel starter repository",
-  "license": "MIT",
+  "name": "api-nood",
+  "version": "0.0.0",
+  "description": "API, Nest/Prisma based",
   "scripts": {
     "format": "prettier --write \"**/*.js\"",
     "start": "babel-node index.js",
@@ -12,24 +11,24 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/common": "^6.1.0",
-    "@nestjs/core": "^6.1.0",
-    "@nestjs/platform-express": "^6.1.0",
-    "@nestjs/microservices": "^6.1.0",
-    "@nestjs/websockets": "^6.1.0",
-    "reflect-metadata": "^0.1.12",
-    "rxjs": "^6.1.0"
+    "@nestjs/common": "^6.2.0",
+    "@nestjs/core": "^6.2.0",
+    "@nestjs/microservices": "^6.2.0",
+    "@nestjs/platform-express": "^6.2.0",
+    "@nestjs/websockets": "^6.2.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
+    "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
-    "@babel/plugin-proposal-decorators": "^7.4.0",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
-    "@nestjs/testing": "^6.0.0",
-    "jest": "^24.0.0",
-    "nodemon": "^1.14.1",
-    "prettier": "^1.11.1",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@nestjs/testing": "^6.2.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1",
     "supertest": "^4.0.0"
   },
   "jest": {
